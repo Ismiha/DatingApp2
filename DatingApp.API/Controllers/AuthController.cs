@@ -54,8 +54,7 @@ namespace DatingApp.API.Controllers
                 return Unauthorized();
 
             var claims = new[]{
-                new Claim (ClaimTypes.NameIdentifier, userFromDB.Id.ToString()),
-                new Claim (ClaimTypes.Name, userFromDB.Username)
+                 new Claim (ClaimTypes.Name, userFromDB.Username)
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8
             .GetBytes(_config.GetSection("AppSettings:Token").Value));
