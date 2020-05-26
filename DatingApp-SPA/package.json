@@ -25,7 +25,10 @@
     "bootswatch": "^4.5.0",
     "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
+    "hammerjs": "^2.0.8",
     "ngx-bootstrap": "^3.3.0",
+    "ngx-gallery": "^5.10.0",
+    "ngx-gallery-9": "^1.0.6",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
