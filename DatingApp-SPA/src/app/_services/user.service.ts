@@ -27,4 +27,8 @@ setMainPhoto(userId: number, id: number ) {
 deleteUserPhoto(userId: number, id: number){
   return this.http.delete(this.baseUrl + 'users/' + userId + '/photos/' + id);
 }
+
+updateUser(userId: number, user: User){
+  return this.http.put(this.baseUrl + 'users/' + userId, user);
+}
 }
